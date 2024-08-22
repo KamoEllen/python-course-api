@@ -115,3 +115,64 @@ This project uses the following libraries:
   - **`include/`**: Header files for the virtual environment.
   - **`Lib/site-packages/`**: Installed Python packages.
   - **`Scripts/`**: Scripts for managing the virtual environment.
+ 
+
+## Available routes in the api
+
+# API Routes
+
+### Courses
+
+- **`GET /api/courses`**  
+  Retrieves a list of all courses.
+
+- **`POST /api/courses`**  
+  Creates a new course.
+
+- **`DELETE /api/courses/{id}`**  
+  Deletes a specific course by its ID.
+
+- **`PUT /api/courses/{id}`**  
+  Updates the details of a specific course by its ID.
+
+- **`GET /api/courses/{id}`**  
+  Retrieves details of a specific course by its ID.
+
+### Hello
+
+- **`GET /api/hello`**  
+  A simple endpoint for testing the API.
+
+### Authentication
+
+- **`POST /api/login`**  
+  Authenticates a user and returns a token.
+
+- **`POST /api/register`**  
+  Registers a new user.
+
+### Students
+
+- **`GET /api/students`**  
+  Retrieves a list of all students.
+
+- **`POST /api/students`**  
+  Creates a new student.
+
+- **`DELETE /api/students/{id}`**  
+  Deletes a specific student by their ID.
+
+- **`PUT /api/students/{id}`**  
+  Updates the details of a specific student by their ID.
+
+- **`GET /api/students/{id}`**  
+  Retrieves details of a specific student by their ID.
+```
+
+### Explanation:
+- **`GET`** requests retrieve data from the server.
+- **`POST`** requests send new data to the server.
+- **`DELETE`** requests remove data from the server.
+- **`PUT`** requests update existing data on the server.
+
+
