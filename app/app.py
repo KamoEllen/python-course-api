@@ -1,8 +1,11 @@
 from flask import Flask 
+from app.extensions import api, db, jwt
+from app.resources import ns
+from app.models import User
 
-from .extensions import api, db, jwt
-from .resources import ns
-from .models import User
+# from .extensions import api, db, jwt
+# from .resources import ns
+# from .models import User
 
 def create_app():
     app = Flask(__name__)
