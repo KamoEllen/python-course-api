@@ -168,11 +168,9 @@ This project uses the following libraries:
 - **`GET /api/students/{id}`**  
   Retrieves details of a specific student by their ID.
 ```
-
-### Explanation:
+ <summary>API Points </summary>
 - **`GET`** requests retrieve data from the server.
 - **`POST`** requests send new data to the server.
 - **`DELETE`** requests remove data from the server.
 - **`PUT`** requests update existing data on the server.
-
-
+</details>+
