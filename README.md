@@ -58,3 +58,60 @@ This project uses the following libraries:
 
 - **[Flask-JWT-Extended](https://github.com/jordanlb/flask-jwt-extended)**: Adds support for JSON Web Tokens (JWT) in Flask applications, facilitating secure authentication and authorization.
 
+## Project structure
+
+<details>
+  <summary>Project Directory</summary>
+
+  ```
+  C:.
+  ├───app
+  │   └───__pycache__
+  ├───instance
+  └───venv
+      ├───include
+      │   └───site
+      │       └───python3.12
+      │           └───greenlet
+      ├───Lib
+      │   └───site-packages
+      │       ├───aniso8601
+      │       ├───attr
+      │       ├───attrs
+      │       ├───blinker
+      │       ├───click
+      │       ├───colorama
+      │       ├───dotenv
+      │       ├───flask
+      │       ├───flask_jwt_extended
+      │       ├───flask_restful
+      │       ├───flask_restplus
+      │       ├───flask_restx
+      │       ├───flask_sqlalchemy
+      │       ├───greenlet
+      │       ├───importlib_resources
+      │       ├───itsdangerous
+      │       ├───jinja2
+      │       ├───jsonschema
+      │       ├───jsonschema_specifications
+      │       ├───jwt
+      │       ├───markupsafe
+      │       ├───pip
+      │       ├───pytz
+      │       ├───referencing
+      │       ├───rpds
+      │       ├───six
+      │       ├───sqlalchemy
+      │       ├───typing_extensions
+      │       ├───werkzeug
+      └───Scripts
+  ```
+
+</details>
+
+- **`app/`**: Contains the main application code.
+- **`instance/`**: Holds instance-specific configurations.
+- **`venv/`**: The virtual environment directory, which includes:
+  - **`include/`**: Header files for the virtual environment.
+  - **`Lib/site-packages/`**: Installed Python packages.
+  - **`Scripts/`**: Scripts for managing the virtual environment.
